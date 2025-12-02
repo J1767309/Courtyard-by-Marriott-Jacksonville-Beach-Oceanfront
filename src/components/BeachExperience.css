@@ -1,0 +1,112 @@
+.beach-experience {
+    padding: var(--spacing-lg) 0;
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+
+.beach-experience__header {
+    text-align: center;
+    margin-bottom: var(--spacing-md);
+}
+
+.beach-experience__title {
+    font-size: 2.5rem;
+    margin-bottom: var(--spacing-xs);
+}
+
+.beach-experience__subtitle {
+    max-width: 700px;
+    margin: 0 auto;
+    opacity: 0.9;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.beach-experience__gallery {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+}
+
+.beach-experience__image {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.beach-experience__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.beach-experience__image:hover img {
+    transform: scale(1.03);
+}
+
+.beach-experience__image--large {
+    min-height: 350px;
+}
+
+.beach-experience__image--large img {
+    height: 350px;
+}
+
+.beach-experience__label {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.beach-experience__amenities {
+    text-align: center;
+}
+
+.beach-experience__amenities h3 {
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.beach-experience__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--spacing-sm) var(--spacing-md);
+    list-style: none;
+    padding: 0;
+}
+
+.beach-experience__list li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1rem;
+}
+
+.beach-experience__list li::before {
+    content: '✓';
+    color: var(--color-accent);
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .beach-experience__gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .beach-experience__image--large img {
+        height: 250px;
+    }
+
+    .beach-experience__list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
