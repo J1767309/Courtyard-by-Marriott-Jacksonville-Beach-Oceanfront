@@ -21,7 +21,7 @@ const RenovationHighlights = () => {
             id: 3,
             title: 'Meeting Spaces',
             description: 'Host your next event in our versatile meeting rooms, equipped with modern technology and flexible layouts.',
-            image: `${baseUrl}images/Meeting Room.jpg`
+            image: `${baseUrl}images/MeetingRoom.jpg`
         }
     ];
 
