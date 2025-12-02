@@ -2,24 +2,26 @@ import React from 'react';
 import './RenovationHighlights.css';
 
 const RenovationHighlights = () => {
+    const baseUrl = import.meta.env.BASE_URL;
+
     const highlights = [
         {
             id: 1,
             title: 'Beach Views',
             description: 'Wake up to stunning views of Jacksonville Beach, just steps from the sand and surf.',
-            image: '/images/BeachView.jpg'
+            image: `${baseUrl}images/BeachView.jpg`
         },
         {
             id: 2,
             title: 'Refreshed Guest Rooms',
             description: 'Retreat to our newly renovated rooms featuring plush bedding and modern amenities.',
-            image: '/images/Roomview.png'
+            image: `${baseUrl}images/Roomview.png`
         },
         {
             id: 3,
             title: 'Meeting Spaces',
             description: 'Host your next event in our versatile meeting rooms, equipped with modern technology and flexible layouts.',
-            image: '/images/Meeting Room.jpg'
+            image: `${baseUrl}images/Meeting Room.jpg`
         }
     ];
 

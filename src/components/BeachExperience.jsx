@@ -2,6 +2,8 @@ import React from 'react';
 import './BeachExperience.css';
 
 const BeachExperience = () => {
+    const baseUrl = import.meta.env.BASE_URL;
+
     const amenities = [
         'Direct Beach Access',
         'Heated Outdoor Pool',
@@ -24,11 +26,11 @@ const BeachExperience = () => {
 
                 <div className="beach-experience__gallery">
                     <div className="beach-experience__image beach-experience__image--large">
-                        <img src="/images/Twilight_-_Pool-2.jpg" alt="Heated pool at twilight" />
+                        <img src={`${baseUrl}images/Twilight_-_Pool-2.jpg`} alt="Heated pool at twilight" />
                         <span className="beach-experience__label">Heated Pool & Deck</span>
                     </div>
                     <div className="beach-experience__image">
-                        <img src="/images/Twilight_-_Fire_Pit.jpg" alt="Fire pit lounge area" />
+                        <img src={`${baseUrl}images/Twilight_-_Fire_Pit.jpg`} alt="Fire pit lounge area" />
                         <span className="beach-experience__label">Fire Pit Lounge</span>
                     </div>
                 </div>

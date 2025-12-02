@@ -2,7 +2,6 @@
     position: relative;
     height: 80vh;
     min-height: 600px;
-    background-image: url('/images/Twilight_Back_of_Hotel-2.gif');
     background-size: cover;
     background-position: center;
     display: flex;

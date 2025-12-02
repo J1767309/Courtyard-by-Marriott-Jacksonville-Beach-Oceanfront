@@ -2,8 +2,10 @@ import React from 'react';
 import './Hero.css';
 
 const Hero = () => {
+    const baseUrl = import.meta.env.BASE_URL;
+
     return (
-        <section className="hero">
+        <section className="hero" style={{ backgroundImage: `url(${baseUrl}images/Twilight_Back_of_Hotel-2.gif)` }}>
             <div className="hero__overlay"></div>
             <div className="container hero__content">
                 <h1 className="hero__title">A New Wave of Luxury</h1>
