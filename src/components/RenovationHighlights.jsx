@@ -15,13 +15,13 @@ const RenovationHighlights = () => {
             id: 2,
             title: 'Refreshed Guest Rooms',
             description: 'Retreat to our newly renovated rooms featuring plush bedding and modern amenities.',
-            image: `${baseUrl}images/Roomview.png`
+            image: `${baseUrl}images/TwoQueenRoom1.jpg`
         },
         {
             id: 3,
             title: 'Meeting Spaces',
             description: 'Host your next event in our versatile meeting rooms, equipped with modern technology and flexible layouts.',
-            image: `${baseUrl}images/MeetingRoom.jpg`
+            image: `${baseUrl}images/MeetingRoom1.jpg`
         }
     ];
 
