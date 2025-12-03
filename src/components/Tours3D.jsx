@@ -23,8 +23,8 @@ const Tours3D = () => {
             description: 'Comfortable king room with a sofa bed, ideal for business travelers or couples needing extra flexibility.',
             matterportUrl: 'https://my.matterport.com/show/?m=LAU5qm1CZCb',
             images: [
-                `${baseUrl}images/KingSuite1.jpg`,
-                `${baseUrl}images/KingSuite2.jpg`
+                `${baseUrl}images/KingSuite2.jpg`,
+                `${baseUrl}images/KingSuite1.jpg`
             ]
         },
         {
