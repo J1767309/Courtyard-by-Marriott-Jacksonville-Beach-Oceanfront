@@ -58,6 +58,9 @@ const Tours3D = () => {
                             <div className="tours-3d__info">
                                 <h3>About this Space</h3>
                                 <p>{tour.description}</p>
+                                <div className="tours-3d__photo-preview">
+                                    <img src={tour.image} alt={tour.title} />
+                                </div>
                             </div>
                         </div>
                     </div>
