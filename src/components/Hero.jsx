@@ -8,8 +8,7 @@ const Hero = () => {
         <section className="hero" style={{ backgroundImage: `url(${baseUrl}images/Twilight_Back_of_Hotel-2.gif)` }}>
             <div className="hero__overlay"></div>
             <div className="container hero__content">
-                <h1 className="hero__title">Fresh, Modern, and Oceanfront</h1>
-                <p className="hero__subtitle">Experience the Newly Renovated, Oceanfront Courtyard by Marriott Jacksonville Beach</p>
+                <h1 className="hero__title">Experience the Newly Renovated, Oceanfront Courtyard by Marriott Jacksonville Beach</h1>
                 <div className="hero__actions">
                     <a href="https://www.marriott.com/en-us/hotels/jaxjv-courtyard-jacksonville-beach-oceanfront/overview/" className="hero__btn hero__btn--primary" target="_blank" rel="noopener noreferrer">Book Now</a>
                 </div>
