@@ -13,7 +13,7 @@ const ThingsToDo = () => {
 
     const nearby = [
         { name: 'Jacksonville Beach Pier', distance: 'Walking distance' },
-        { name: 'Adventure Landing', distance: '2.4 miles' },
+        { name: 'Beaches Town Center', distance: '1.8 miles' },
         { name: 'Kathryn Abbey Hanna Park', distance: '6.5 miles' },
         { name: 'EverBank Stadium', distance: '20 min drive' },
         { name: 'University of North Florida', distance: '15 min drive' }

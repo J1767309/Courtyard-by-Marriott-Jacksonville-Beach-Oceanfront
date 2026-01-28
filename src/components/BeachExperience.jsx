@@ -10,8 +10,7 @@ const BeachExperience = () => {
         'Poolside Tiki Bar',
         'Fire Pit Lounge',
         'Whirlpool',
-        'Pet-Friendly',
-        'Free Parking'
+        'Pet-Friendly'
     ];
 
     return (
